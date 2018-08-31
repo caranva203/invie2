@@ -1,0 +1,112 @@
+
+
+/*
+//propiedades del elemento universal 
+* {
+	width: tamaño;
+	height: tamaño;
+	padding: 10px; // a todos los lados se le agregan 10px
+	padding-top: 10px; // agrega 10px arriba
+	padding-right: 13px; //agrega 13px derecha
+	padding-left: 15px; //agrega 15px izquierda
+	padding-bottom: 5px; //agrega 5px abajo
+	padding: 10px 13px 5px 15px // agrega xpx empezando por top siguiendo el reloj 
+	// resalta las cajas y su estructura de todo el html
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid red;
+}*/
+
+body {
+	/*uso del tipo de fuente externo*/
+	font-family: 'Allerta', sans-serif;
+	/*se le quita la margen al body*/
+	margin: 0;
+}
+
+.titulo {
+	font-family: 'Montserrat', sans-serif;
+	/*tamaño de fuente*/
+	font-size: 70px;
+	margin-bottom: 0;
+	margin-top: 70px;
+}
+.title-a {
+	font-size: 50px;
+	margin-bottom: 30px;
+	margin-top: 0: 
+}
+.title-b {
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+.guitarras {
+	color: #1F313C;
+	font-size: 25px; 
+}
+.guitarra ol {
+	padding: 0;
+}
+.guitarras h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+.portada {
+	/*ruta relativa para acceder a la imagen del proyecto*/
+	background-image: url('../images/background.png');
+	/*colores de texto dentro de la etiqueta de clase portada*/
+	color: white;
+	/*genera un espacio a la margen*/
+	padding: 20px; 
+}
+.portada button {
+	margin-bottom: 70px;
+}
+.menu {
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	right:0;
+}
+.menu li {
+	/*los elementos de tipo li en clase menu se muestran en linea de bloques*/
+	display: inline-block;
+	/*espacio entre los li del menu*/
+	margin-left: 30px;
+}
+.logotipo {
+	display: inline-block;
+}
+.contenedor {
+	/*ancho del modelo de caja*/
+	width: 800px;
+	/*posicion centrada de la margen de la caja*/
+	margin: auto;
+}
+.guitarra {
+	/**/
+	margin: 10px;
+	padding: 10px;
+	/*overflow: hidden;*/
+	border: 1px solid #1F313C; 
+}
+/*flotar elemento a la derecha*/
+.derecha {
+	float: right;
+	position: relative;
+	top: -127px;
+}
+/*flotar elemento a la izquierda*/
+.izquierda {
+	float: left;
+	position: relative;
+	top: 80px;
+}
+.contendedor-guitarra-a {
+	padding-left: 30px; 
+}
+.contenedor-guitarra-b {
+	margin-left: 400px;
+}
+.header {
+	position: relative;
+}
